@@ -16,6 +16,10 @@ public class GradeServiceImpl implements GradeService {
             return "C";
         }else if (score > 32.5) {
             return "D";
+        }else if (score > 22.5) {
+            return "Nigga";
+
+            
         } else
             return "F";
 
